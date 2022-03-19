@@ -1,0 +1,29 @@
+.single-item-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.sub-single-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-item-out-of-stock {
+  background-color: #b91c1c;
+  padding: 4px 10px;
+  border-radius: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.single-item-in-stock {
+  background-color: #059669;
+  padding: 4px 10px;
+  border-radius: 14px;
+  color: #fff;
+  font-weight: 500;
+}
